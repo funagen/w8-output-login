@@ -1,0 +1,55 @@
+body{
+    background-color: #000033;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+h1{
+    color: white;
+}
+.sign-in{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.form{
+    color: white;
+}
+label{
+    color: white;
+}
+#your-email{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: flex;
+    height: 64px;
+    padding: 8px 24px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    overflow-wrap: anywhere;
+    background: white;
+}
+.sign-in{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: flex;
+    height: 64px;
+    padding: 8px 24px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    overflow-wrap: anywhere;
+    background: blue;
+}
+a{
+    text-decoration: none;
+}
